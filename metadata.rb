@@ -11,6 +11,7 @@ recipe "rackbox::ruby", "setup a ruby version manager `rbenv`."
 recipe "rackbox::nginx", "setup `nginx` as front-end server."
 recipe "rackbox::unicorn", "setup `unicorn` apps, if any."
 recipe "rackbox::passenger", "setup `passenger` apps, if any."
+recipe "rackbox::postgresql", "Install PostgreSQL and create PostgreSQL databases."
 
 supports 'ubuntu'
 supports 'debian'
