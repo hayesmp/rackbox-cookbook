@@ -17,6 +17,7 @@ supports 'ubuntu'
 supports 'debian'
 
 depends 'appbox'
+depends 'database'
 depends 'mysql'
 depends 'sqlite'
 depends 'postgresql'
