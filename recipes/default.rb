@@ -15,6 +15,10 @@ include_recipe "rackbox::ruby"
 include_recipe "rackbox::nginx"
 include_recipe "runit"
 
+include_recipe "imagemagick"
+include_recipe "imagemagick::devel"
+include_recipe "imagemagick::rmagick"
+
 if node["rackbox"]["apps"]["unicorn"]
   include_recipe "rackbox::unicorn"
 end

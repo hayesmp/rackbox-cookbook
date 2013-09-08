@@ -18,6 +18,7 @@ supports 'debian'
 
 depends 'appbox'
 depends 'database'
+depends 'imagemagick'
 depends 'mysql'
 depends 'sqlite'
 depends 'postgresql'
