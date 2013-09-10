@@ -27,7 +27,7 @@ if node["rackbox"]["apps"]["passenger"]
   include_recipe "rackbox::passenger"
 end
 
-unless node["rackbox"]["databases"]["postgresql"].nil?
+unless node["rackbox"]["databases"].nil?
   if node["rackbox"]["databases"]["postgresql"]
     include_recipe "rackbox::postgresql"
   end
