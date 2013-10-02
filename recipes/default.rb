@@ -2,6 +2,7 @@
 # Cookbook Name:: rackbox
 # Recipe:: default
 #
+package "build-essential"
 package "libsqlite3-dev"
 package "libpq-dev"
 package "postgresql"
