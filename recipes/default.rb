@@ -2,8 +2,6 @@
 # Cookbook Name:: rackbox
 # Recipe:: default
 #
-`apt-get -y install build-essential`
-
 package "libsqlite3-dev"
 package "libpq-dev"
 package "postgresql"
